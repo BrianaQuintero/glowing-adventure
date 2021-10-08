@@ -3,3 +3,35 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #353637;
+  min-height: 70px;
+}
+
+main {
+  background-color: #cccccc;
+  height: 600px;
+}
+
+section#newsletter {
+  background-color: #353637;
+  height: 100px;
+}
+
+section#about {
+  background-color: #cccccc;
+  height: 100px;
+}
+
+footer {
+  background-color: #32a0c2;
+  height: 70px;
+}
