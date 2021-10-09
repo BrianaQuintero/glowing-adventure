@@ -5,15 +5,18 @@
 }
 
 body {
-  height: 100vh;
-  max-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
 }
 
 header {
   background: #353637;
   min-height: 70px;
+  height: 70px;
 }
 
 main {
@@ -34,4 +37,23 @@ section#about {
 footer {
   background-color: #32a0c2;
   height: 70px;
+}
+
+#header {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div#branding {
+  color: white;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 0 20px;
 }
