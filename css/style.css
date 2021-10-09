@@ -35,9 +35,10 @@ section#newsletter {
   height: 100px;
 }
 
-section#about {
+section#boxes {
+  color: #000;
   background-color: #cccccc;
-  height: 100px;
+  display: flex;
 }
 
 footer {
