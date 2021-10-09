@@ -6,6 +6,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #ffffff;
 }
 
 .container {
@@ -15,13 +17,17 @@ body {
 
 header {
   background: #353637;
-  min-height: 70px;
-  height: 70px;
+  min-height: 100px;
+  height: 100px;
+  border-bottom: #32a0c2 3px solid;
 }
 
 main {
-  background-color: #cccccc;
-  height: 600px;
+  min-height: 400px;
+  height: 400px;
+  background: url('../img/headerbg.jpg') no-repeat center;
+  background-color: #ffffff;
+  background-size: cover;
 }
 
 section#newsletter {
@@ -37,6 +43,13 @@ section#about {
 footer {
   background-color: #32a0c2;
   height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  text-align: center;
 }
 
 #header {
@@ -56,4 +69,16 @@ nav a {
   text-transform: uppercase;
   font-size: 1rem;
   padding: 0 20px;
+}
+
+div#showcase {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div#showcase h1,
+div#showcase p {
+  text-align: center;
 }
